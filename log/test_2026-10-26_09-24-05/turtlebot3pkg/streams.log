@@ -1,0 +1,22 @@
+[0.261s] Invoking command in '/home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg': CONDA_PROMPT_MODIFIER=(base) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml --junit-prefix=turtlebot3pkg -o cache_dir=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.663s] [1m============================= test session starts ==============================[0m
+[0.663s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.668s] cachedir: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache
+[0.668s] rootdir: /home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg
+[0.668s] plugins: ament-copyright-0.12.15, ament-xmllint-0.12.15, launch-testing-1.0.15, ament-flake8-0.12.15, ament-lint-0.12.15, launch-testing-ros-0.19.14, ament-pep257-0.12.15, cov-3.0.0, mock-3.6.1, colcon-core-0.21.3, timeout-2.1.0, rerunfailures-10.2, repeat-0.9.1
+[0.726s] [1mcollecting ... [0m[1m
+[0.726s] collected 3 items                                                              [0m
+[0.726s] 
+[0.734s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[0.898s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[0.931s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[0.931s] 
+[0.931s] [33m=============================== warnings summary ===============================[0m
+[0.931s] test/test_flake8.py::test_flake8
+[0.931s] test/test_flake8.py::test_flake8
+[0.931s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.931s] 
+[0.932s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.932s] - generated xml file: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml -
+[0.932s] [33m=================== [32m2 passed[0m, [33m[1m1 skipped[0m, [33m[1m2 warnings[0m[33m in 0.27s[0m[33m ===================[0m
+[1.028s] Invoked command in '/home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml --junit-prefix=turtlebot3pkg -o cache_dir=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

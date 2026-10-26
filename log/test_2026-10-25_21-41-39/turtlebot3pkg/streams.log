@@ -1,0 +1,104 @@
+[0.274s] Invoking command in '/home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg': CONDA_PROMPT_MODIFIER=(base) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml --junit-prefix=turtlebot3pkg -o cache_dir=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.697s] [1m============================= test session starts ==============================[0m
+[0.697s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.702s] cachedir: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache
+[0.702s] rootdir: /home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg
+[0.702s] plugins: ament-copyright-0.12.15, ament-xmllint-0.12.15, launch-testing-1.0.15, ament-flake8-0.12.15, ament-lint-0.12.15, launch-testing-ros-0.19.14, ament-pep257-0.12.15, cov-3.0.0, mock-3.6.1, colcon-core-0.21.3, timeout-2.1.0, rerunfailures-10.2, repeat-0.9.1
+[0.759s] [1mcollecting ... [0m[1m
+[0.759s] collected 3 items                                                              [0m
+[0.759s] 
+[0.764s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[0.961s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[0.994s] test/test_pep257.py [31mF[0m[31m                                                    [100%][0m
+[0.994s] 
+[0.994s] =================================== FAILURES ===================================
+[0.994s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[0.994s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.024s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1.025s] [1m[31mE   AssertionError: Found 1 code style errors / warnings:[0m
+[1.025s] [1m[31mE     ./launch/turtlebot3_slam_nav.launch.py:15:1: D412 No blank lines allowed between a section header and its content[0m
+[1.025s] [1m[31mE   assert 1 == 0[0m
+[1.025s] ----------------------------- Captured stdout call -----------------------------
+[1.025s] 
+[1.025s] ./launch/turtlebot3_slam_nav.launch.py:15:1: D412 No blank lines allowed between a section header and its content
+[1.025s] """
+[1.025s] Launch TurtleBot3 Waffle SLAM or saved-map autonomous navigation in Gazebo with RViz.
+[1.025s] 
+[1.026s] Starts:
+[1.026s]   * Gazebo (gz-sim) with the turtlebot3World.sdf world
+[1.026s]   * robot_state_publisher with the TurtleBot3 Waffle URDF
+[1.026s]   * the Waffle model (DiffDrive, IMU and LiDAR plugins) spawned into Gazebo
+[1.026s]     * ros_gz_bridge for clock, cmd_vel, odom, tf, joint_states, scan and imu
+[1.026s]     * Nav2 bringup with optional slam_toolbox mapping
+[1.026s]   * RViz2 preconfigured for SLAM and navigation
+[1.026s] 
+[1.026s] Examples:
+[1.026s] 
+[1.027s]     ros2 launch turtlebot3pkg turtlebot3_slam_nav.launch.py
+[1.027s]     ros2 launch turtlebot3pkg turtlebot3_slam_nav.launch.py slam:=false map:=/path/to/map.yaml
+[1.027s]   ros2 launch turtlebot3pkg turtlebot3_slam_nav.launch.py headless:=true use_rviz:=false
+[1.027s] 
+[1.027s] """
+[1.027s] ^
+[1.027s] 
+[1.027s] 1     D412 No blank lines allowed between a section header and its content
+[1.027s] 
+[1.027s] 9 files checked
+[1.028s] 1 errors
+[1.028s] 
+[1.028s] 'D'-type errors: 1
+[1.028s] 
+[1.028s] Checked files:
+[1.028s] 
+[1.028s] * ./setup.py
+[1.028s] * ./turtlebot3pkg/__init__.py
+[1.028s] * ./test/test_pep257.py
+[1.028s] * ./test/test_copyright.py
+[1.028s] * ./test/test_flake8.py
+[1.029s] * ./launch/turtlebot3_navigation.launch.py
+[1.029s] * ./launch/turtlebot3_mapping.launch.py
+[1.029s] * ./launch/gazeboLaunch.py
+[1.029s] * ./launch/turtlebot3_slam_nav.launch.py
+[1.029s] ----------------------------- Captured stderr call -----------------------------
+[1.029s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.029s] option --application-import-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.029s] option --application-package-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.029s] option --import-order-style: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.029s] option --quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.029s] option --inline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.029s] option --multiline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.030s] option --docstring-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.030s] [31m[1m_________________________________ test_pep257 __________________________________[0m
+[1.030s] [1m[31mtest/test_pep257.py[0m:23: in test_pep257
+[1.030s]     [94massert[39;49;00m rc == [94m0[39;49;00m, [33m'[39;49;00m[33mFound code style errors / warnings[39;49;00m[33m'[39;49;00m
+[1.030s] [1m[31mE   AssertionError: Found code style errors / warnings[0m
+[1.030s] [1m[31mE   assert 1 == 0[0m
+[1.030s] ----------------------------- Captured stdout call -----------------------------
+[1.030s] checking ./launch/gazeboLaunch.py
+[1.030s] checking ./launch/turtlebot3_mapping.launch.py
+[1.030s] checking ./launch/turtlebot3_navigation.launch.py
+[1.030s] checking ./launch/turtlebot3_slam_nav.launch.py
+[1.031s] ./launch/turtlebot3_slam_nav.launch.py:15 at module level: D407: Missing dashed underline after section ('Examples')
+[1.031s] ./launch/turtlebot3_slam_nav.launch.py:15 at module level: D412: No blank lines allowed between a section header and its content ('Examples')
+[1.031s] ./launch/turtlebot3_slam_nav.launch.py:15 at module level: D406: Section name should end with a newline ('Examples', not 'Examples:')
+[1.031s] checking ./setup.py
+[1.031s] checking ./test/test_copyright.py
+[1.031s] checking ./test/test_flake8.py
+[1.031s] checking ./test/test_pep257.py
+[1.031s] checking ./turtlebot3pkg/__init__.py
+[1.031s] checking test/test_copyright.py
+[1.031s] checking test/test_flake8.py
+[1.031s] checking test/test_pep257.py
+[1.031s] 3 errors
+[1.032s] [33m=============================== warnings summary ===============================[0m
+[1.032s] test/test_flake8.py::test_flake8
+[1.032s] test/test_flake8.py::test_flake8
+[1.032s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.032s] 
+[1.032s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.032s] - generated xml file: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml -
+[1.032s] =========================== short test summary info ============================
+[1.032s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 1 code style ...
+[1.032s] FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+[1.032s] [31m=================== [31m[1m2 failed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.33s[0m[31m ===================[0m
+[1.157s] Invoked command in '/home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg' returned '1': CONDA_PROMPT_MODIFIER=(base) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml --junit-prefix=turtlebot3pkg -o cache_dir=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

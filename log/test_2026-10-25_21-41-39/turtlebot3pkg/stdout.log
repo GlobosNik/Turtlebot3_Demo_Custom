@@ -1,0 +1,96 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache
+rootdir: /home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg
+plugins: ament-copyright-0.12.15, ament-xmllint-0.12.15, launch-testing-1.0.15, ament-flake8-0.12.15, ament-lint-0.12.15, launch-testing-ros-0.19.14, ament-pep257-0.12.15, cov-3.0.0, mock-3.6.1, colcon-core-0.21.3, timeout-2.1.0, rerunfailures-10.2, repeat-0.9.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [31mF[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 1 code style errors / warnings:[0m
+[1m[31mE     ./launch/turtlebot3_slam_nav.launch.py:15:1: D412 No blank lines allowed between a section header and its content[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./launch/turtlebot3_slam_nav.launch.py:15:1: D412 No blank lines allowed between a section header and its content
+"""
+Launch TurtleBot3 Waffle SLAM or saved-map autonomous navigation in Gazebo with RViz.
+
+Starts:
+  * Gazebo (gz-sim) with the turtlebot3World.sdf world
+  * robot_state_publisher with the TurtleBot3 Waffle URDF
+  * the Waffle model (DiffDrive, IMU and LiDAR plugins) spawned into Gazebo
+    * ros_gz_bridge for clock, cmd_vel, odom, tf, joint_states, scan and imu
+    * Nav2 bringup with optional slam_toolbox mapping
+  * RViz2 preconfigured for SLAM and navigation
+
+Examples:
+
+    ros2 launch turtlebot3pkg turtlebot3_slam_nav.launch.py
+    ros2 launch turtlebot3pkg turtlebot3_slam_nav.launch.py slam:=false map:=/path/to/map.yaml
+  ros2 launch turtlebot3pkg turtlebot3_slam_nav.launch.py headless:=true use_rviz:=false
+
+"""
+^
+
+1     D412 No blank lines allowed between a section header and its content
+
+9 files checked
+1 errors
+
+'D'-type errors: 1
+
+Checked files:
+
+* ./setup.py
+* ./turtlebot3pkg/__init__.py
+* ./test/test_pep257.py
+* ./test/test_copyright.py
+* ./test/test_flake8.py
+* ./launch/turtlebot3_navigation.launch.py
+* ./launch/turtlebot3_mapping.launch.py
+* ./launch/gazeboLaunch.py
+* ./launch/turtlebot3_slam_nav.launch.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --application-import-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --application-package-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --import-order-style: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --inline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --multiline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --docstring-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[31m[1m_________________________________ test_pep257 __________________________________[0m
+[1m[31mtest/test_pep257.py[0m:23: in test_pep257
+    [94massert[39;49;00m rc == [94m0[39;49;00m, [33m'[39;49;00m[33mFound code style errors / warnings[39;49;00m[33m'[39;49;00m
+[1m[31mE   AssertionError: Found code style errors / warnings[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+checking ./launch/gazeboLaunch.py
+checking ./launch/turtlebot3_mapping.launch.py
+checking ./launch/turtlebot3_navigation.launch.py
+checking ./launch/turtlebot3_slam_nav.launch.py
+./launch/turtlebot3_slam_nav.launch.py:15 at module level: D407: Missing dashed underline after section ('Examples')
+./launch/turtlebot3_slam_nav.launch.py:15 at module level: D412: No blank lines allowed between a section header and its content ('Examples')
+./launch/turtlebot3_slam_nav.launch.py:15 at module level: D406: Section name should end with a newline ('Examples', not 'Examples:')
+checking ./setup.py
+checking ./test/test_copyright.py
+checking ./test/test_flake8.py
+checking ./test/test_pep257.py
+checking ./turtlebot3pkg/__init__.py
+checking test/test_copyright.py
+checking test/test_flake8.py
+checking test/test_pep257.py
+3 errors
+- generated xml file: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 1 code style ...
+FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+[31m=================== [31m[1m2 failed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.33s[0m[31m ===================[0m

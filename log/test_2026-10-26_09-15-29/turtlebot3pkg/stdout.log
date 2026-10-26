@@ -1,0 +1,13 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache
+rootdir: /home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg
+plugins: ament-copyright-0.12.15, ament-xmllint-0.12.15, launch-testing-1.0.15, ament-flake8-0.12.15, ament-lint-0.12.15, launch-testing-ros-0.19.14, ament-pep257-0.12.15, cov-3.0.0, mock-3.6.1, colcon-core-0.21.3, timeout-2.1.0, rerunfailures-10.2, repeat-0.9.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+- generated xml file: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml -
+[33m=================== [32m2 passed[0m, [33m[1m1 skipped[0m, [33m[1m2 warnings[0m[33m in 0.27s[0m[33m ===================[0m

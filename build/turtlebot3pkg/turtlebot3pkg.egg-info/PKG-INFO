@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: turtlebot3pkg
+Version: 0.0.0
+Summary: TurtleBot3 Waffle in Gazebo with SLAM, Nav2 navigation and RViz
+Home-page: UNKNOWN
+Maintainer: nikhil
+Maintainer-email: nikhil.bhaktha@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

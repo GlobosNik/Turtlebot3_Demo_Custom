@@ -1,0 +1,48 @@
+running develop
+running egg_info
+creating turtlebot3pkg.egg-info
+writing turtlebot3pkg.egg-info/PKG-INFO
+writing dependency_links to turtlebot3pkg.egg-info/dependency_links.txt
+writing entry points to turtlebot3pkg.egg-info/entry_points.txt
+writing requirements to turtlebot3pkg.egg-info/requires.txt
+writing top-level names to turtlebot3pkg.egg-info/top_level.txt
+writing manifest file 'turtlebot3pkg.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot3pkg.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/lib/python3.10/site-packages/turtlebot3pkg.egg-link (link to .)
+
+Installed /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg
+running symlink_data
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/ament_index
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/ament_index/resource_index
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/ament_index/resource_index/packages
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/resource/turtlebot3pkg -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/ament_index/resource_index/packages
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/package.xml -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/launch
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/launch/gazeboLaunch.py -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/launch
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/launch/turtlebot3_slam_nav.launch.py -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/launch
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/worlds
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/worlds/turtlebot3World.sdf -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/worlds
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/config
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/config/turtlebot3_waffle_bridge.yaml -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/config
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/config/nav2_slam_params.yaml -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/config
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/rviz
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/rviz/tb3_slam_nav.rviz -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/rviz
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/urdf
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/urdf/turtlebot3_waffle.urdf -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/urdf
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_waffle
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/models/turtlebot3_waffle/model.sdf -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_waffle
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/models/turtlebot3_waffle/model.config -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_waffle
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/models/turtlebot3_common/model.config -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common/meshes
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common/meshes/bases
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/models/turtlebot3_common/meshes/bases/waffle_base.stl -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common/meshes/bases
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common/meshes/sensors
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/models/turtlebot3_common/meshes/sensors/lds.stl -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common/meshes/sensors
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/models/turtlebot3_common/meshes/sensors/r200.dae -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common/meshes/sensors
+creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common/meshes/wheels
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/models/turtlebot3_common/meshes/wheels/left_tire.stl -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common/meshes/wheels
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/models/turtlebot3_common/meshes/wheels/right_tire.stl -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/models/turtlebot3_common/meshes/wheels

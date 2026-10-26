@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000454] (turtlebot3pkg) JobQueued: {'identifier': 'turtlebot3pkg', 'dependencies': OrderedDict([('turtlebot3pkg', '/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg')])}
+[0.000599] (turtlebot3pkg) JobStarted: {'identifier': 'turtlebot3pkg'}
+[0.099825] (-) TimerEvent: {}
+[0.200127] (-) TimerEvent: {}
+[0.279989] (turtlebot3pkg) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nikhil'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIT_EDITOR', ':'), ('GIO_MODULE_DIR', '/home/nikhil/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/264/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('HOME', '/home/nikhil'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.138.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/264/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/nikhil/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/264/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/264/usr/share/code/code'), ('MANAGERPID', '1768'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1953'), ('BUNDLED_DEBUGPY_PATH', '/home/nikhil/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '29832'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nikhil'), ('JOURNAL_STREAM', '8:18177'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'nikhil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/opt/ros/humble/bin:/home/nikhil/anaconda3/bin:/home/nikhil/anaconda3/condabin:/home/nikhil/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/nikhil/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nikhil/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/Nik-Cyberpad:@/tmp/.ICE-unix/1916,unix/Nik-Cyberpad:/tmp/.ICE-unix/1916'), ('GTK_EXE_PREFIX', '/snap/code/264/usr'), ('INVOCATION_ID', 'cdbdce852a214bff882e797e3d60ba36'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/264/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/nikhil/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3aaa5decbfeac982.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/nikhil/.config/Code/User/workspaceStorage/c2b7d776e9d405ee747f71afe9eefe6a/ms-python.python/pythonrc.py'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/nikhil/snap/code/264/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LMUTX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b1c5286d09.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/nikhil/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nikhil/anaconda3/bin/python'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('CONDA_DEFAULT_ENV', 'base'), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg'), ('GIT_MERGE_AUTOEDIT', 'no'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '28e0b447e058b2021dab6257e1096603'), ('CONDA_EXE', '/home/nikhil/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/home/nikhil/snap/code/264/.local/share:/home/nikhil/snap/code/264:/snap/code/264/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg:/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/nikhil/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', '/home/nikhil/snap/code/264/.local/share/glib-2.0/schemas'), ('COLCON', '1'), ('PYTHONDONTWRITEBYTECODE', '1'), ('PYTEST_ADDOPTS', '--tb=short --junit-xml=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml --junit-prefix=turtlebot3pkg -o cache_dir=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache')]), 'shell': False}
+[0.300218] (-) TimerEvent: {}
+[0.400497] (-) TimerEvent: {}
+[0.500769] (-) TimerEvent: {}
+[0.601081] (-) TimerEvent: {}
+[0.701427] (-) TimerEvent: {}
+[0.735067] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.735308] (turtlebot3pkg) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.740064] (turtlebot3pkg) StdoutLine: {'line': b'cachedir: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache\n'}
+[0.740263] (turtlebot3pkg) StdoutLine: {'line': b'rootdir: /home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg\n'}
+[0.740367] (turtlebot3pkg) StdoutLine: {'line': b'plugins: ament-copyright-0.12.15, ament-xmllint-0.12.15, launch-testing-1.0.15, ament-flake8-0.12.15, ament-lint-0.12.15, launch-testing-ros-0.19.14, ament-pep257-0.12.15, cov-3.0.0, mock-3.6.1, colcon-core-0.21.3, timeout-2.1.0, rerunfailures-10.2, repeat-0.9.1\n'}
+[0.801515] (-) TimerEvent: {}
+[0.806926] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.807144] (turtlebot3pkg) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.807294] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[0.814831] (turtlebot3pkg) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.901635] (-) TimerEvent: {}
+[1.002108] (-) TimerEvent: {}
+[1.033345] (turtlebot3pkg) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[1.071262] (turtlebot3pkg) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[1.071538] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.071631] (turtlebot3pkg) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[1.071712] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[1.071786] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[1.102206] (-) TimerEvent: {}
+[1.103755] (turtlebot3pkg) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[1.104126] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 7 code style errors / warnings:\x1b[0m\n'}
+[1.104262] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./turtlebot3pkg/world_to_map.py:9:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[1.104386] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./turtlebot3pkg/world_to_map.py:13:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[1.104506] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./turtlebot3pkg/world_to_map.py:40:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[1.104614] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./turtlebot3pkg/world_to_map.py:50:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[1.104719] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./turtlebot3pkg/world_to_map.py:98:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[1.104824] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./turtlebot3pkg/world_to_map.py:114:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[1.104947] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./turtlebot3pkg/world_to_map.py:115:11: W292 no newline at end of file\x1b[0m\n'}
+[1.105054] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[1.105157] (turtlebot3pkg) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[1.105261] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.105364] (turtlebot3pkg) StdoutLine: {'line': b'./turtlebot3pkg/world_to_map.py:9:1: E302 expected 2 blank lines, found 1\n'}
+[1.105477] (turtlebot3pkg) StdoutLine: {'line': b'def _pose(model):\n'}
+[1.105582] (turtlebot3pkg) StdoutLine: {'line': b'^\n'}
+[1.105685] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.105788] (turtlebot3pkg) StdoutLine: {'line': b'./turtlebot3pkg/world_to_map.py:13:1: E302 expected 2 blank lines, found 1\n'}
+[1.105899] (turtlebot3pkg) StdoutLine: {'line': b'def _collision_shapes(root):\n'}
+[1.106010] (turtlebot3pkg) StdoutLine: {'line': b'^\n'}
+[1.106112] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.106214] (turtlebot3pkg) StdoutLine: {'line': b'./turtlebot3pkg/world_to_map.py:40:1: E302 expected 2 blank lines, found 1\n'}
+[1.106316] (turtlebot3pkg) StdoutLine: {'line': b'def _inside(shape, x, y):\n'}
+[1.106417] (turtlebot3pkg) StdoutLine: {'line': b'^\n'}
+[1.106520] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.106623] (turtlebot3pkg) StdoutLine: {'line': b'./turtlebot3pkg/world_to_map.py:50:1: E302 expected 2 blank lines, found 1\n'}
+[1.106727] (turtlebot3pkg) StdoutLine: {'line': b'def generate_map(world_path, output_prefix, resolution, margin):\n'}
+[1.106830] (turtlebot3pkg) StdoutLine: {'line': b'^\n'}
+[1.106946] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.107051] (turtlebot3pkg) StdoutLine: {'line': b'./turtlebot3pkg/world_to_map.py:98:1: E302 expected 2 blank lines, found 1\n'}
+[1.107154] (turtlebot3pkg) StdoutLine: {'line': b'def main():\n'}
+[1.107256] (turtlebot3pkg) StdoutLine: {'line': b'^\n'}
+[1.107357] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.107459] (turtlebot3pkg) StdoutLine: {'line': b'./turtlebot3pkg/world_to_map.py:114:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.107562] (turtlebot3pkg) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[1.107664] (turtlebot3pkg) StdoutLine: {'line': b'^\n'}
+[1.107765] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.107875] (turtlebot3pkg) StdoutLine: {'line': b'./turtlebot3pkg/world_to_map.py:115:11: W292 no newline at end of file\n'}
+[1.107989] (turtlebot3pkg) StdoutLine: {'line': b'    main()          ^\n'}
+[1.108090] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.108191] (turtlebot3pkg) StdoutLine: {'line': b'5     E302 expected 2 blank lines, found 1\n'}
+[1.108292] (turtlebot3pkg) StdoutLine: {'line': b'1     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.108410] (turtlebot3pkg) StdoutLine: {'line': b'1     W292 no newline at end of file\n'}
+[1.108522] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.108602] (turtlebot3pkg) StdoutLine: {'line': b'10 files checked\n'}
+[1.108682] (turtlebot3pkg) StdoutLine: {'line': b'7 errors\n'}
+[1.108781] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.108896] (turtlebot3pkg) StdoutLine: {'line': b"'E'-type errors: 6\n"}
+[1.108983] (turtlebot3pkg) StdoutLine: {'line': b"'W'-type errors: 1\n"}
+[1.109063] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.109141] (turtlebot3pkg) StdoutLine: {'line': b'Checked files:\n'}
+[1.109221] (turtlebot3pkg) StdoutLine: {'line': b'\n'}
+[1.109301] (turtlebot3pkg) StdoutLine: {'line': b'* ./setup.py\n'}
+[1.109368] (turtlebot3pkg) StdoutLine: {'line': b'* ./turtlebot3pkg/__init__.py\n'}
+[1.109430] (turtlebot3pkg) StdoutLine: {'line': b'* ./turtlebot3pkg/world_to_map.py\n'}
+[1.109533] (turtlebot3pkg) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[1.109634] (turtlebot3pkg) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[1.109739] (turtlebot3pkg) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[1.109839] (turtlebot3pkg) StdoutLine: {'line': b'* ./launch/turtlebot3_navigation.launch.py\n'}
+[1.109966] (turtlebot3pkg) StdoutLine: {'line': b'* ./launch/turtlebot3_mapping.launch.py\n'}
+[1.110075] (turtlebot3pkg) StdoutLine: {'line': b'* ./launch/gazeboLaunch.py\n'}
+[1.110176] (turtlebot3pkg) StdoutLine: {'line': b'* ./launch/turtlebot3_slam_nav.launch.py\n'}
+[1.110277] (turtlebot3pkg) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[1.110378] (turtlebot3pkg) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.110495] (turtlebot3pkg) StdoutLine: {'line': b'option --application-import-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.110633] (turtlebot3pkg) StdoutLine: {'line': b'option --application-package-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.110740] (turtlebot3pkg) StdoutLine: {'line': b'option --import-order-style: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.110814] (turtlebot3pkg) StdoutLine: {'line': b'option --quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.110939] (turtlebot3pkg) StdoutLine: {'line': b'option --inline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.111018] (turtlebot3pkg) StdoutLine: {'line': b'option --multiline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.111086] (turtlebot3pkg) StdoutLine: {'line': b'option --docstring-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.111185] (turtlebot3pkg) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[1.111324] (turtlebot3pkg) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.111427] (turtlebot3pkg) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.111521] (turtlebot3pkg) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[1.111663] (turtlebot3pkg) StderrLine: {'line': b'\n'}
+[1.111752] (turtlebot3pkg) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[1.111853] (turtlebot3pkg) StdoutLine: {'line': b'- generated xml file: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml -\n'}
+[1.111950] (turtlebot3pkg) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[1.112028] (turtlebot3pkg) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 7 code style ...\n'}
+[1.112121] (turtlebot3pkg) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.37s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[1.202308] (-) TimerEvent: {}
+[1.209081] (turtlebot3pkg) CommandEnded: {'returncode': 1}
+[1.209646] (turtlebot3pkg) TestFailure: {'identifier': 'turtlebot3pkg'}
+[1.209713] (turtlebot3pkg) JobEnded: {'identifier': 'turtlebot3pkg', 'rc': 0}
+[1.210236] (-) EventReactorShutdown: {}

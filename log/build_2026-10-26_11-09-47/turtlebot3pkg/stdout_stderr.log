@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing turtlebot3pkg.egg-info/PKG-INFO
+writing dependency_links to turtlebot3pkg.egg-info/dependency_links.txt
+writing entry points to turtlebot3pkg.egg-info/entry_points.txt
+writing requirements to turtlebot3pkg.egg-info/requires.txt
+writing top-level names to turtlebot3pkg.egg-info/top_level.txt
+reading manifest file 'turtlebot3pkg.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/lib/python3.10/site-packages/turtlebot3pkg.egg-link (link to .)
+Installing world_to_map script to /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/lib/turtlebot3pkg
+
+Installed /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg
+running symlink_data
+symbolically linking /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/rviz/tb3_navigation.rviz -> /home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/share/turtlebot3pkg/rviz

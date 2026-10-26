@@ -1,0 +1,97 @@
+[0.281s] Invoking command in '/home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg': AMENT_PREFIX_PATH=/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml --junit-prefix=turtlebot3pkg -o cache_dir=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg:/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.735s] [1m============================= test session starts ==============================[0m
+[0.735s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.740s] cachedir: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache
+[0.740s] rootdir: /home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg
+[0.740s] plugins: ament-copyright-0.12.15, ament-xmllint-0.12.15, launch-testing-1.0.15, ament-flake8-0.12.15, ament-lint-0.12.15, launch-testing-ros-0.19.14, ament-pep257-0.12.15, cov-3.0.0, mock-3.6.1, colcon-core-0.21.3, timeout-2.1.0, rerunfailures-10.2, repeat-0.9.1
+[0.806s] [1mcollecting ... [0m[1m
+[0.807s] collected 3 items                                                              [0m
+[0.807s] 
+[0.814s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[1.033s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[1.071s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[1.071s] 
+[1.071s] =================================== FAILURES ===================================
+[1.071s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[1.071s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.103s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1.104s] [1m[31mE   AssertionError: Found 7 code style errors / warnings:[0m
+[1.104s] [1m[31mE     ./turtlebot3pkg/world_to_map.py:9:1: E302 expected 2 blank lines, found 1[0m
+[1.104s] [1m[31mE     ./turtlebot3pkg/world_to_map.py:13:1: E302 expected 2 blank lines, found 1[0m
+[1.104s] [1m[31mE     ./turtlebot3pkg/world_to_map.py:40:1: E302 expected 2 blank lines, found 1[0m
+[1.104s] [1m[31mE     ./turtlebot3pkg/world_to_map.py:50:1: E302 expected 2 blank lines, found 1[0m
+[1.104s] [1m[31mE     ./turtlebot3pkg/world_to_map.py:98:1: E302 expected 2 blank lines, found 1[0m
+[1.104s] [1m[31mE     ./turtlebot3pkg/world_to_map.py:114:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1.104s] [1m[31mE     ./turtlebot3pkg/world_to_map.py:115:11: W292 no newline at end of file[0m
+[1.105s] [1m[31mE   assert 1 == 0[0m
+[1.105s] ----------------------------- Captured stdout call -----------------------------
+[1.105s] 
+[1.105s] ./turtlebot3pkg/world_to_map.py:9:1: E302 expected 2 blank lines, found 1
+[1.105s] def _pose(model):
+[1.105s] ^
+[1.105s] 
+[1.105s] ./turtlebot3pkg/world_to_map.py:13:1: E302 expected 2 blank lines, found 1
+[1.105s] def _collision_shapes(root):
+[1.105s] ^
+[1.106s] 
+[1.106s] ./turtlebot3pkg/world_to_map.py:40:1: E302 expected 2 blank lines, found 1
+[1.106s] def _inside(shape, x, y):
+[1.106s] ^
+[1.106s] 
+[1.106s] ./turtlebot3pkg/world_to_map.py:50:1: E302 expected 2 blank lines, found 1
+[1.106s] def generate_map(world_path, output_prefix, resolution, margin):
+[1.106s] ^
+[1.106s] 
+[1.107s] ./turtlebot3pkg/world_to_map.py:98:1: E302 expected 2 blank lines, found 1
+[1.107s] def main():
+[1.107s] ^
+[1.107s] 
+[1.107s] ./turtlebot3pkg/world_to_map.py:114:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.107s] if __name__ == '__main__':
+[1.107s] ^
+[1.107s] 
+[1.107s] ./turtlebot3pkg/world_to_map.py:115:11: W292 no newline at end of file
+[1.107s]     main()          ^
+[1.108s] 
+[1.108s] 5     E302 expected 2 blank lines, found 1
+[1.108s] 1     E305 expected 2 blank lines after class or function definition, found 1
+[1.108s] 1     W292 no newline at end of file
+[1.108s] 
+[1.108s] 10 files checked
+[1.108s] 7 errors
+[1.108s] 
+[1.108s] 'E'-type errors: 6
+[1.108s] 'W'-type errors: 1
+[1.109s] 
+[1.109s] Checked files:
+[1.109s] 
+[1.109s] * ./setup.py
+[1.109s] * ./turtlebot3pkg/__init__.py
+[1.109s] * ./turtlebot3pkg/world_to_map.py
+[1.109s] * ./test/test_pep257.py
+[1.109s] * ./test/test_copyright.py
+[1.109s] * ./test/test_flake8.py
+[1.109s] * ./launch/turtlebot3_navigation.launch.py
+[1.109s] * ./launch/turtlebot3_mapping.launch.py
+[1.110s] * ./launch/gazeboLaunch.py
+[1.110s] * ./launch/turtlebot3_slam_nav.launch.py
+[1.110s] ----------------------------- Captured stderr call -----------------------------
+[1.110s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.110s] option --application-import-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.110s] option --application-package-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.110s] option --import-order-style: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.110s] option --quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.110s] option --inline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.110s] option --multiline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.111s] option --docstring-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.111s] [33m=============================== warnings summary ===============================[0m
+[1.111s] test/test_flake8.py::test_flake8
+[1.111s] test/test_flake8.py::test_flake8
+[1.111s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.111s] 
+[1.111s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.111s] - generated xml file: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml -
+[1.111s] =========================== short test summary info ============================
+[1.111s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 7 code style ...
+[1.112s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.37s[0m[31m ==============[0m
+[1.209s] Invoked command in '/home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg' returned '1': AMENT_PREFIX_PATH=/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml --junit-prefix=turtlebot3pkg -o cache_dir=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg:/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

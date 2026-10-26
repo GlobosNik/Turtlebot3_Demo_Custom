@@ -1,0 +1,64 @@
+[0.285s] Invoking command in '/home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg': AMENT_PREFIX_PATH=/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml --junit-prefix=turtlebot3pkg -o cache_dir=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg:/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.727s] [1m============================= test session starts ==============================[0m
+[0.727s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.732s] cachedir: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache
+[0.732s] rootdir: /home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg
+[0.732s] plugins: ament-copyright-0.12.15, ament-xmllint-0.12.15, launch-testing-1.0.15, ament-flake8-0.12.15, ament-lint-0.12.15, launch-testing-ros-0.19.14, ament-pep257-0.12.15, cov-3.0.0, mock-3.6.1, colcon-core-0.21.3, timeout-2.1.0, rerunfailures-10.2, repeat-0.9.1
+[0.788s] [1mcollecting ... [0m[1m
+[0.788s] collected 3 items                                                              [0m
+[0.788s] 
+[0.793s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[1.058s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[1.108s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[1.108s] 
+[1.108s] =================================== FAILURES ===================================
+[1.108s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[1.108s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.147s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1.147s] [1m[31mE   AssertionError: Found 1 code style errors / warnings:[0m
+[1.147s] [1m[31mE     ./turtlebot3pkg/world_to_map.py:121:11: W292 no newline at end of file[0m
+[1.148s] [1m[31mE   assert 1 == 0[0m
+[1.148s] ----------------------------- Captured stdout call -----------------------------
+[1.148s] 
+[1.148s] ./turtlebot3pkg/world_to_map.py:121:11: W292 no newline at end of file
+[1.148s]     main()          ^
+[1.148s] 
+[1.148s] 1     W292 no newline at end of file
+[1.148s] 
+[1.148s] 10 files checked
+[1.148s] 1 errors
+[1.148s] 
+[1.148s] 'W'-type errors: 1
+[1.148s] 
+[1.149s] Checked files:
+[1.149s] 
+[1.149s] * ./setup.py
+[1.149s] * ./turtlebot3pkg/__init__.py
+[1.149s] * ./turtlebot3pkg/world_to_map.py
+[1.149s] * ./test/test_pep257.py
+[1.149s] * ./test/test_copyright.py
+[1.149s] * ./test/test_flake8.py
+[1.149s] * ./launch/turtlebot3_navigation.launch.py
+[1.149s] * ./launch/turtlebot3_mapping.launch.py
+[1.149s] * ./launch/gazeboLaunch.py
+[1.149s] * ./launch/turtlebot3_slam_nav.launch.py
+[1.150s] ----------------------------- Captured stderr call -----------------------------
+[1.150s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.150s] option --application-import-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.150s] option --application-package-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.150s] option --import-order-style: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.150s] option --quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.150s] option --inline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.150s] option --multiline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.150s] option --docstring-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.151s] [33m=============================== warnings summary ===============================[0m
+[1.151s] test/test_flake8.py::test_flake8
+[1.151s] test/test_flake8.py::test_flake8
+[1.151s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.151s] 
+[1.151s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.151s] - generated xml file: /home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml -
+[1.151s] =========================== short test summary info ============================
+[1.151s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 1 code style ...
+[1.152s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.42s[0m[31m ==============[0m
+[1.342s] Invoked command in '/home/nikhil/Desktop/turtlebot3_ws/src/turtlebot3pkg' returned '1': AMENT_PREFIX_PATH=/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/pytest.xml --junit-prefix=turtlebot3pkg -o cache_dir=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/nikhil/Desktop/turtlebot3_ws/build/turtlebot3pkg:/home/nikhil/Desktop/turtlebot3_ws/install/turtlebot3pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
