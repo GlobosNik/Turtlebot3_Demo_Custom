@@ -119,4 +119,4 @@ source install/setup.bash
 - Record the ROS2 distribution, TurtleBot3 model, and launch command used for reproducibility.
 
 ## License
-
+This repository is under the MIT License.
